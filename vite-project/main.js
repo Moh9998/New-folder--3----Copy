@@ -47,7 +47,7 @@ function addStar() {
 Array(2000).fill().forEach(addStar);
 
 // Background
-const spaceTexture = new THREE.TextureLoader().load('./photos/NightSky.png');
+const spaceTexture = new THREE.TextureLoader().load('./photos/ClassRoom.jpg');
 
 scene.background = spaceTexture;
 
